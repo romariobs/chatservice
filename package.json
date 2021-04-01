@@ -1,0 +1,16 @@
+{
+  "name": "chatbox-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "build": "docker build -t chatbox-server ."
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "lodash": "^4.17.20",
+    "morgan": "~1.9.1",
+  }
+}
